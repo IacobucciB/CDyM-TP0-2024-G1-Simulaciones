@@ -1,18 +1,15 @@
-/*
- * tp0.c
- *
- * Created: 17/6/2024 16:00:53
- * Author : admin
- */ 
-
 #include <avr/io.h>
-
+#define F_CPU 16000000UL
+#include <util/delay.h>
 
 int main(void)
 {
-    /* Replace with your application code */
-    while (1) 
-    {
+	DDRB = 0xFF;
+	while(1) {
+		PORTB = 0xFF;
+		_delay_ms(500);
+		PORTB = 0x00;
+		_delay_ms(500);
     }
 }
 
