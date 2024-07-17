@@ -6,5 +6,3 @@ Como los trabajos son varios, decidi hacer una rama para cada Practica y/o Entre
 
 De esta forma las simulaciones del Proteus contendran menos elementos (y no ser tan exigente de recursos)
 El proyecto de Atmel Studio solo contendra librerias relacionadas al codigo en cuestion.
-
-## Entregable No. 4
