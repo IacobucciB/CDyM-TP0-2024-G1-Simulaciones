@@ -6,5 +6,3 @@ lcd.c
 
 main.c
 
-serialPort.c
-
